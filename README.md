@@ -16,7 +16,7 @@ Gemma 4 E2B (attention LoRA) and Gemma 3 270M, trained and served on [Modal](htt
 
 Full report with baselines and caveats: https://claude.ai/artifact/8xJE6T4ovza9JwAFpMbQay
 
-## Nine demos, all real recordings of the live model
+## Eight demos, all real recordings of the live model, no task-specific fine-tuning
 | # | Page / script | Replica of | What is real |
 |---|---|---|---|
 | 1 | `/` | TypeSafe presets | 4 scenarios, 28 typed fields each, one call |
@@ -24,12 +24,13 @@ Full report with baselines and caveats: https://claude.ai/artifact/8xJE6T4ovza9J
 | 3 | `/emails` | @ryanvogel inbox classifier | 1,500 Enron emails, 74.6/s, 95.4% spam accuracy |
 | 4 | `/viral` | @rileybrown viral-post analyzer | judged 500 ms after you stop typing |
 | 5 | `games.py --game doom` | TypeSafe's Doom | ViZDoom (freedoom), model picks every action from labels + depth + game vars |
-| 6 | `games.py --game mario` | @faadilhshaik's Mario | NES emulator, RAM-derived state, model picks controller input |
-| 7 | `rec/agent.mjs` | @gregpr07 browser-use agent | real Google Flights, model picks element + operation each step |
-| 8 | `/drive` | @Neel490 self-driving sim | lidar sectors, code reflexes, model makes the tactical call at ~3 Hz |
-| 9 | `/home` | TypeSafe smart-home demo | typed commands -> device, action, ambiguity, confirmation |
+| 6 | `rec/agent.mjs` | @gregpr07 browser-use agent | real Google Flights, model picks element + operation each step |
+| 7 | `/drive` | @Neel490 self-driving sim | lidar sectors, code reflexes, model makes the tactical call at ~3 Hz |
+| 8 | `/home` | TypeSafe smart-home demo | typed commands -> device, action, ambiguity, confirmation |
 
 Base URL: https://mithalouni--jev-serve-e2b-full-server-web.modal.run  (scales to zero; first request after idle takes ~60 s).
+
+Dropped on purpose: a Super Mario Bros replica of @faadilhshaik's demo. The base model played Doom zero-shot but stood still in Mario ("noop" ~77%); Jev played it zero-shot. A 10-minute task fine-tune fixed it, but that would not be a fair comparison, so it is not one of the demos. `games.py --game mario` still runs it if you want to see the failure.
 Videos in `media/` were recorded from these pages on one H100.
 
 
