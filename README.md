@@ -16,11 +16,18 @@ Gemma 4 E2B (attention LoRA) and Gemma 3 270M, trained and served on [Modal](htt
 
 Full report with baselines and caveats: https://claude.ai/artifact/8xJE6T4ovza9JwAFpMbQay
 
-## Live demos (replicas of the launch-week demos)
-- `/`        typed decisions on 4 preset scenarios, 28 fields each (incl. a 255-option choice)
-- `/race`    the launch video's terminal race: 27 typed decisions for a support ticket in one call
-- `/emails`  Ryan Vogel's inbox classifier: 1,500 real Enron emails, category/priority/spam/reply, throughput + accuracy
-- `/viral`   Riley Brown's live viral-post analyzer: type, and it judges 500 ms after you stop
+## Nine demos, all real recordings of the live model
+| # | Page / script | Replica of | What is real |
+|---|---|---|---|
+| 1 | `/` | TypeSafe presets | 4 scenarios, 28 typed fields each, one call |
+| 2 | `/race` | launch-video terminal race | the 27 launch questions, 97 ms on an H100 |
+| 3 | `/emails` | @ryanvogel inbox classifier | 1,500 Enron emails, 74.6/s, 95.4% spam accuracy |
+| 4 | `/viral` | @rileybrown viral-post analyzer | judged 500 ms after you stop typing |
+| 5 | `games.py --game doom` | TypeSafe's Doom | ViZDoom (freedoom), model picks every action from labels + depth + game vars |
+| 6 | `games.py --game mario` | @faadilhshaik's Mario | NES emulator, RAM-derived state, model picks controller input |
+| 7 | `rec/agent.mjs` | @gregpr07 browser-use agent | real Google Flights, model picks element + operation each step |
+| 8 | `/drive` | @Neel490 self-driving sim | lidar sectors, code reflexes, model makes the tactical call at ~3 Hz |
+| 9 | `/home` | TypeSafe smart-home demo | typed commands -> device, action, ambiguity, confirmation |
 
 Base URL: https://mithalouni--jev-serve-e2b-full-server-web.modal.run  (scales to zero; first request after idle takes ~60 s).
 Videos in `media/` were recorded from these pages on one H100.

@@ -56,6 +56,16 @@ class Server:
         def demo():
             return PAGE
 
+        from s1.demo_pages3 import DRIVE, HOME
+
+        @api.get("/drive", response_class=HTMLResponse)
+        def drive_page():
+            return DRIVE
+
+        @api.get("/home", response_class=HTMLResponse)
+        def home_page():
+            return HOME
+
         @api.get("/race", response_class=HTMLResponse)
         def race_page():
             return RACE
