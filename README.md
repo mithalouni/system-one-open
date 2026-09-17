@@ -1,4 +1,30 @@
-# s1 — an open System-One decision model (Jev replica)
+# System One, open — a Jev-style decision model you can run yourself
+
+**State in, typed calibrated decisions out, one forward pass, no decoding.** An open replica of TypeSafe's [Jev](https://typesafe.ai) built on
+Gemma 4 E2B (attention LoRA) and Gemma 3 270M, trained and served on [Modal](https://modal.com). MIT licensed.
+
+| | Jev (published) | This replica (Gemma 4 E2B) |
+|---|---|---|
+| TypeSafe public eval, strict common subset (343 pairs) | **86.9%** | 76.7% |
+| Same eval, stock Qwen 7B (jev-on-a-laptop study) | | 73.8% |
+| 27-question launch-demo ticket, one call | 114 ms | 97 ms (H100) |
+| 1,000 real emails, 4 decisions each | | 13.4 s · 74.6 emails/s · 95.4% spam accuracy |
+| Demo task families (Doom, smart home, support, security, invoice, agent trace, catalog) | | 98.8% · ECE 0.003 |
+| Held-out task types (never trained) | | 74.8% |
+| Weights | closed, API only | open (merged safetensors on the Modal volume; HF upload pending) |
+| Price | $0.042 / M input tokens | GPU seconds on your own L4/H100, or CPU |
+
+Full report with baselines and caveats: https://claude.ai/artifact/8xJE6T4ovza9JwAFpMbQay
+
+## Live demos (replicas of the launch-week demos)
+- `/`        typed decisions on 4 preset scenarios, 28 fields each (incl. a 255-option choice)
+- `/race`    the launch video's terminal race: 27 typed decisions for a support ticket in one call
+- `/emails`  Ryan Vogel's inbox classifier: 1,500 real Enron emails, category/priority/spam/reply, throughput + accuracy
+- `/viral`   Riley Brown's live viral-post analyzer: type, and it judges 500 ms after you stop
+
+Base URL: https://mithalouni--jev-serve-e2b-full-server-web.modal.run  (scales to zero; first request after idle takes ~60 s).
+Videos in `media/` were recorded from these pages on one H100.
+
 
 State in, typed calibrated decisions out, **one forward pass, no decoding**. Three primitives, same shape as
 TypeSafe's Jev API: `choice` (distribution over options + confidence), `score` (distribution over ordered levels +
