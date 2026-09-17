@@ -1,0 +1,132 @@
+<title>System One, Open</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{--bg:#F5F7F9;--ink:#16202A;--muted:#5F6E7C;--rule:#D6DEE5;--accent:#0E7C86;--accent-soft:#D9EEF0;--amber:#B8730A;--amber-soft:#F6E9D2;--ref:#8A97A4;--card:#FFFFFF}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0F1519;--ink:#E6ECF1;--muted:#93A1AE;--rule:#26323B;--accent:#3FB4BE;--accent-soft:#143338;--amber:#E0A13A;--amber-soft:#332812;--ref:#5C6B78;--card:#161E24}}
+:root[data-theme="dark"]{--bg:#0F1519;--ink:#E6ECF1;--muted:#93A1AE;--rule:#26323B;--accent:#3FB4BE;--accent-soft:#143338;--amber:#E0A13A;--amber-soft:#332812;--ref:#5C6B78;--card:#161E24}
+body{background:var(--bg);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif;font-size:17px;line-height:1.55;padding-inline:20px;padding-block:32px 64px;margin:0}
+.wrap{max-width:900px;margin:0 auto}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;letter-spacing:-.01em;text-wrap:balance;margin:0}
+h1{font-size:2.4rem;line-height:1.1} h2{font-size:1.45rem;margin-top:3rem;padding-top:1rem;border-top:1px solid var(--rule)} h3{font-size:1.1rem;margin-top:1.6rem}
+p{max-width:68ch} .lede{font-size:1.15rem;color:var(--muted);max-width:60ch;margin-top:.8rem}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.board{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:2rem 0 0}
+.tile{background:var(--card);border:1px solid var(--rule);padding:14px 16px}
+.tile .k{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.tile .v{font-family:"JetBrains Mono",monospace;font-size:1.6rem;font-weight:500;font-variant-numeric:tabular-nums;margin-top:6px}
+.tile .s{font-size:.9rem;color:var(--muted)}
+.tile.ours .v{color:var(--accent)} .tile.base .v{color:var(--amber)}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.95rem} .tbl{overflow-x:auto}
+th{text-align:left;font-weight:600;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--ink);padding:8px 10px 6px}
+td{padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top} td.num{font-family:"JetBrains Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap;font-size:.9rem}
+tr.total td{font-weight:600;border-bottom:2px solid var(--ink)} td.muted{color:var(--muted)}
+.note{font-size:.9rem;color:var(--muted);max-width:68ch}
+.callout{border-left:3px solid var(--amber);background:var(--amber-soft);padding:12px 16px;max-width:68ch;margin:1.2rem 0}
+svg .lbl{font-family:"Source Sans 3",sans-serif;font-size:13px;fill:var(--ink)} svg .val{font-family:"JetBrains Mono",monospace;font-size:12px;fill:var(--ink)}
+svg .bar-ref{fill:var(--ref)} svg .bar-ours{fill:var(--accent)} svg .bar-base{fill:var(--amber)}
+pre{background:var(--card);border:1px solid var(--rule);padding:14px 16px;overflow-x:auto;font-family:"JetBrains Mono",monospace;font-size:.82rem;line-height:1.45}
+code{font-family:"JetBrains Mono",monospace;font-size:.9em}
+ul{max-width:68ch;padding-left:1.2rem} li{margin:.3rem 0}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+a{color:var(--accent)} a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+<div class="wrap">
+<div class="eyebrow">Replication report · September 2026</div>
+<h1>System One, Open</h1>
+<p class="lede">An open replica of TypeSafe's Jev: state in, typed calibrated decisions out, one forward pass, no decoding. Built on Modal from Gemma 3 270M and Gemma 4 E2B, evaluated on Jev's own public cases.</p>
+
+<div class="board">
+ <div class="tile ours"><div class="k">Best run · common subset</div><div class="v">76.7%</div><div class="s">E2B, attention LoRA · 263/343 pairs</div></div>
+ <div class="tile"><div class="k">Jev · same pairs</div><div class="v">86.9%</div><div class="s">published answers · 298/343</div></div>
+ <div class="tile base"><div class="k">Majority baseline</div><div class="v">82.8%</div><div class="s">per-question majority · the floor to beat</div></div>
+ <div class="tile ours"><div class="k">Demo families</div><div class="v">98.8%</div><div class="s">accuracy across 7 task families</div></div>
+ <div class="tile ours"><div class="k">Latency · 6 questions</div><div class="v">45 ms</div><div class="s">one pass on an H100 · Jev: 70–500 ms</div></div>
+</div>
+
+
+<h2>What Jev is, and what was rebuilt</h2>
+<p>Jev takes a block of state and a list of typed questions and returns each answer with a probability distribution and a confidence value, in a single pass, with no text generation. Three primitives: <strong>Choice</strong> (pick one of up to 255 options), <strong>Score</strong> (an ordered rubric level) and <strong>Noul</strong> (a yes/no probability). Output tokens are free because there are none.</p>
+<p>The replica keeps that contract exactly. The prompt is the state inside <code>&lt;state&gt;</code> tags followed by one block per question, each ending in an answer slot <code>Answer k: (</code>. The model is read only at those slots, restricted to the option-label tokens. Every upper- and lower-case letter is a single token in Gemma's vocabulary, so one pass covers 52 options; larger sets are scored in chunks with a "none of the above" slot and a final round. Training minimises cross-entropy plus a Brier term on those slot distributions, then fits one temperature on held-in test data. Confidence is the margin between the top two probabilities.</p>
+<div class="cols">
+ <div><h3>Training mixture</h3><ul><li>92 public decision datasets: intents and ticket routing, moderation, NLI and fact-checking, passage relevance, reading comprehension, rubric scores, pairwise judging, tool selection, agent next-action.</li><li>7 rule-generated families mirroring the demo and eval workflows, with exact teacher labels.</li><li>23 datasets held out entirely to measure generalisation to unseen question types.</li></ul></div>
+ <div><h3>Evaluation</h3><ul><li>TypeSafe's public eval viewer, rebuilt: 20 cases, 372 reference pairs, reference = mean of GPT-6 Astra and Claude Fable 5.1.</li><li>Strict common subset: only the 343 pairs that Opus, Sol and Jev all answered, so coverage differences flatter no one.</li><li>Majority baselines reported next to every model, because the invoice workflow is dominated by "no".</li></ul></div>
+</div>
+
+<h2>Head-to-head on Jev's own cases</h2>
+<p>Agreement with the frontier consensus on the strict common subset. Grey bars are published answers, teal bars are this replica, amber bars are what you get by always answering the most common reference value.</p>
+<div class="tbl"><svg viewBox="0 0 720 320" width="100%" role="img" aria-label="Agreement with the frontier consensus on the strict common subset"><text x="290" y="24" text-anchor="end" class="lbl">Claude Opus 5 (published)</text><rect x="300" y="10" width="317.3" height="20" class="bar-ref"/><text x="623.3" y="24" class="val">90.7%</text><text x="290" y="54" text-anchor="end" class="lbl">GPT Sol (published)</text><rect x="300" y="40" width="314.3" height="20" class="bar-ref"/><text x="620.3" y="54" class="val">89.8%</text><text x="290" y="84" text-anchor="end" class="lbl">Jev / TypeSafe (published)</text><rect x="300" y="70" width="304.1" height="20" class="bar-ref"/><text x="610.1" y="84" class="val">86.9%</text><text x="290" y="114" text-anchor="end" class="lbl">Gemma 3 270M, untrained</text><rect x="300" y="100" width="244.9" height="20" class="bar-ours"/><text x="550.9" y="114" class="val">70.0%</text><text x="290" y="144" text-anchor="end" class="lbl">Gemma 4 E2B, untrained</text><rect x="300" y="130" width="234.7" height="20" class="bar-ours"/><text x="540.7" y="144" class="val">67.1%</text><text x="290" y="174" text-anchor="end" class="lbl">270M, lite run</text><rect x="300" y="160" width="182.7" height="20" class="bar-ours"/><text x="488.7" y="174" class="val">52.2%</text><text x="290" y="204" text-anchor="end" class="lbl">270M, full mix</text><rect x="300" y="190" width="149.0" height="20" class="bar-ours"/><text x="455.0" y="204" class="val">42.6%</text><text x="290" y="234" text-anchor="end" class="lbl">E2B, attention LoRA</text><rect x="300" y="220" width="268.4" height="20" class="bar-ours"/><text x="574.4" y="234" class="val">76.7%</text><text x="290" y="264" text-anchor="end" class="lbl">Per-question majority baseline</text><rect x="300" y="250" width="289.8" height="20" class="bar-base"/><text x="595.8" y="264" class="val">82.8%</text><text x="290" y="294" text-anchor="end" class="lbl">Per-type majority baseline</text><rect x="300" y="280" width="207.1" height="20" class="bar-base"/><text x="513.1" y="294" class="val">59.2%</text></svg></div>
+<div class="callout">Read the amber bars first. An untrained model that leans on one letter lands between the two majority baselines, so any number under the per-question majority is not evidence of understanding. The reference itself is a two-model consensus, so agreement measures closeness to the frontier average, not correctness.</div>
+<h3>Per workflow, all answered pairs</h3>
+<div class="tbl"><table><thead><tr><th>Workflow</th><th>Jev (published)</th><th>Gemma 3 270M, untrained</th><th>Gemma 4 E2B, untrained</th><th>270M, lite run</th><th>270M, full mix</th><th>E2B, attention LoRA</th></tr></thead><tbody>
+<tr><td>Security incidents</td><td class="num">20/26 · 76.9%</td><td class="num">26/48 · 54.2%</td><td class="num">23/48 · 47.9%</td><td class="num">25/48 · 52.1%</td><td class="num">26/48 · 54.2%</td><td class="num">33/48 · 68.8%</td></tr>
+<tr><td>Agent-trace observability</td><td class="num">35/49 · 71.4%</td><td class="num">21/48 · 43.8%</td><td class="num">23/48 · 47.9%</td><td class="num">25/48 · 52.1%</td><td class="num">25/48 · 52.1%</td><td class="num">30/48 · 62.5%</td></tr>
+<tr><td>Invoice processing</td><td class="num">169/184 · 91.8%</td><td class="num">154/184 · 83.7%</td><td class="num">142/184 · 77.2%</td><td class="num">92/184 · 50.0%</td><td class="num">57/184 · 31.0%</td><td class="num">148/184 · 80.4%</td></tr>
+<tr><td>Customer service</td><td class="num">81/92 · 88.0%</td><td class="num">59/92 · 64.1%</td><td class="num">62/92 · 67.4%</td><td class="num">54/92 · 58.7%</td><td class="num">54/92 · 58.7%</td><td class="num">74/92 · 80.4%</td></tr>
+<tr class="total"><td>All answered pairs</td><td class="num">305/351 · 86.9%</td><td class="num">260/372 · 69.9%</td><td class="num">250/372 · 67.2%</td><td class="num">196/372 · 52.7%</td><td class="num">162/372 · 43.5%</td><td class="num">285/372 · 76.6%</td></tr></tbody></table></div>
+<h3>By question type</h3>
+<div class="tbl"><table><thead><tr><th>Question type</th><th>Gemma 3 270M, untrained</th><th>Gemma 4 E2B, untrained</th><th>270M, lite run</th><th>270M, full mix</th><th>E2B, attention LoRA</th></tr></thead><tbody>
+<tr><td>Noul (yes/no)</td><td class="num">188/236 · 79.7%</td><td class="num">191/236 · 80.9%</td><td class="num">153/236 · 64.8%</td><td class="num">128/236 · 54.2%</td><td class="num">197/236 · 83.5%</td></tr>
+<tr><td>Score (rubric level)</td><td class="num">6/27 · 22.2%</td><td class="num">2/27 · 7.4%</td><td class="num">5/27 · 18.5%</td><td class="num">8/27 · 29.6%</td><td class="num">13/27 · 48.1%</td></tr>
+<tr><td>Choice</td><td class="num">66/109 · 60.6%</td><td class="num">57/109 · 52.3%</td><td class="num">38/109 · 34.9%</td><td class="num">26/109 · 23.9%</td><td class="num">75/109 · 68.8%</td></tr>
+<tr><td>Calibration error (ECE) on these pairs</td><td class="num">0.255</td><td class="num">0.181</td><td class="num">0.147</td><td class="num">0.256</td><td class="num">0.165</td></tr></tbody></table></div>
+
+<h2>The demo tasks</h2>
+<p>Each family is generated from latent variables with a deterministic teacher, so labels are exact and the untrained baselines are honest. Accuracy over all questions in the family's held-out generation seed.</p>
+<div class="tbl"><table><thead><tr><th>Demo family</th><th>Gemma 3 270M, untrained</th><th>Gemma 4 E2B, untrained</th><th>270M, lite run</th><th>270M, full mix</th><th>E2B, attention LoRA</th></tr></thead><tbody>
+<tr><td>Doom game state → action, danger, threat, target</td><td class="num">47.6%</td><td class="num">49.2%</td><td class="num">73.6%</td><td class="num">86.2%</td><td class="num">95.9%</td></tr>
+<tr><td>Smart home → device, action, ambiguity, confirm</td><td class="num">38.8%</td><td class="num">68.5%</td><td class="num">67.7%</td><td class="num">100.0%</td><td class="num">100.0%</td></tr>
+<tr><td>Support chat → issue, frustration, refund, next action</td><td class="num">46.0%</td><td class="num">62.7%</td><td class="num">71.1%</td><td class="num">99.8%</td><td class="num">100.0%</td></tr>
+<tr><td>Security alert → true positive, evidence, scope, type</td><td class="num">60.1%</td><td class="num">60.6%</td><td class="num">82.3%</td><td class="num">93.6%</td><td class="num">95.4%</td></tr>
+<tr><td>AP packet → PO match, price basis, duplicate, action</td><td class="num">46.4%</td><td class="num">51.0%</td><td class="num">93.5%</td><td class="num">100.0%</td><td class="num">99.9%</td></tr>
+<tr><td>Agent run → goal met, first bad step, satisfaction</td><td class="num">37.8%</td><td class="num">54.0%</td><td class="num">82.8%</td><td class="num">100.0%</td><td class="num">100.0%</td></tr>
+<tr><td>Two product records → same product?</td><td class="num">31.5%</td><td class="num">46.5%</td><td class="num">83.3%</td><td class="num">100.0%</td><td class="num">100.0%</td></tr>
+</tbody></table></div>
+<h3>Doom, closed loop</h3>
+<p>The model plays as the live policy in a small arena: enemies close in and attack, items restore health and ammo, the episode ends on death, a clear, or 200 ticks. Same seeds for every policy.</p>
+<div class="tbl"><table><thead><tr><th>Policy</th><th>Survival rate</th><th>Kill rate</th><th>Mean ticks alive</th><th>Mean final health</th></tr></thead><tbody>
+<tr><td>Rule-based teacher</td><td class="num">41.7%</td><td class="num">47.2%</td><td class="num">24</td><td class="num">20</td></tr>
+<tr><td>Random agent</td><td class="num">0.0%</td><td class="num">0.0%</td><td class="num">25</td><td class="num">0</td></tr>
+<tr><td>270M, full mix</td><td class="num">0.0%</td><td class="num">0.0%</td><td class="num">24</td><td class="num">0</td></tr>
+<tr><td>E2B, attention LoRA</td><td class="num">33.3%</td><td class="num">50.0%</td><td class="num">24</td><td class="num">20</td></tr>
+</tbody></table><p class="note">Agreement with the teacher's action on the same states — 270M, full mix: 36%, E2B, attention LoRA: 90%.</p></div>
+
+<h2>Generalisation and calibration</h2>
+<p>Held-out tasks were never seen in training; they are the fair test of "one model for any typed question". Accuracy at 80% coverage is what you get by acting on the 80% most confident answers and routing the rest to a person, the pattern TypeSafe's docs recommend.</p>
+<div class="tbl"><table><thead><tr><th>Split</th><th>Gemma 3 270M, untrained</th><th>Gemma 4 E2B, untrained</th><th>270M, lite run</th><th>270M, full mix</th><th>E2B, attention LoRA</th></tr></thead><tbody><tr><td>In-task test splits (trained families) — accuracy</td><td class="num">—</td><td class="num">—</td><td class="num">47.5%</td><td class="num">64.8%</td><td class="num">76.2%</td></tr><tr><td>In-task test splits (trained families) — ECE</td><td class="num">—</td><td class="num">—</td><td class="num">0.054</td><td class="num">0.054</td><td class="num">0.057</td></tr><tr><td>In-task test splits (trained families) — accuracy at 80% coverage</td><td class="num">—</td><td class="num">—</td><td class="num">50.1%</td><td class="num">68.9%</td><td class="num">81.6%</td></tr><tr><td>Held-out tasks (never trained) — accuracy</td><td class="num">—</td><td class="num">66.1%</td><td class="num">36.4%</td><td class="num">57.6%</td><td class="num">74.8%</td></tr><tr><td>Held-out tasks (never trained) — ECE</td><td class="num">—</td><td class="num">0.300</td><td class="num">0.115</td><td class="num">0.129</td><td class="num">0.083</td></tr><tr><td>Held-out tasks (never trained) — accuracy at 80% coverage</td><td class="num">—</td><td class="num">70.7%</td><td class="num">37.9%</td><td class="num">61.0%</td><td class="num">79.8%</td></tr><tr><td>Demo families (Doom, smart home, support, security, invoice, agent trace, catalog) — accuracy</td><td class="num">44.0%</td><td class="num">56.1%</td><td class="num">79.2%</td><td class="num">97.1%</td><td class="num">98.8%</td></tr><tr><td>Demo families (Doom, smart home, support, security, invoice, agent trace, catalog) — ECE</td><td class="num">0.488</td><td class="num">0.268</td><td class="num">0.041</td><td class="num">0.007</td><td class="num">0.003</td></tr><tr><td>Demo families (Doom, smart home, support, security, invoice, agent trace, catalog) — accuracy at 80% coverage</td><td class="num">48.9%</td><td class="num">61.6%</td><td class="num">90.1%</td><td class="num">99.2%</td><td class="num">99.9%</td></tr><tr><td class="muted">chance level (mean 1/options)</td><td class="num">—</td><td class="num">33.4%</td><td class="num">33.4%</td><td class="num">33.4%</td><td class="num">33.4%</td></tr></tbody></table></div>
+
+<h2>Latency</h2>
+<div class="tbl"><table><thead><tr><th>Model</th><th>Device</th><th>6 questions on a 168-token game state, median</th><th>p90</th></tr></thead><tbody>
+<tr><td>Gemma 3 270M, untrained</td><td>16 CPU cores</td><td class="num">427 ms</td><td class="num">473 ms</td></tr>
+<tr><td>Gemma 4 E2B, untrained</td><td>H100</td><td class="num">41 ms</td><td class="num">62 ms</td></tr>
+<tr><td>270M, lite run</td><td>H100</td><td class="num">16 ms</td><td class="num">25 ms</td></tr>
+<tr><td>270M, full mix</td><td>H100</td><td class="num">16 ms</td><td class="num">26 ms</td></tr>
+<tr><td>E2B, attention LoRA</td><td>H100</td><td class="num">45 ms</td><td class="num">68 ms</td></tr>
+<tr><td>Jev (TypeSafe, published)</td><td>hosted API</td><td class="num">70–500 ms</td><td class="num">—</td></tr></tbody></table></div>
+
+<h2>Training runs</h2>
+<div class="tbl"><table><thead><tr><th>Run</th><th>Base model</th><th>Trainable params</th><th>Training tokens</th><th>Wall time</th><th>Fitted temperature</th></tr></thead><tbody>
+<tr><td>270M, lite run</td><td>Gemma 3 270M, full fine-tune</td><td class="num">268M</td><td class="num">51M</td><td class="num">21 min</td><td class="num">1.050</td></tr>
+<tr><td>270M, full mix</td><td>Gemma 3 270M, full fine-tune</td><td class="num">268M</td><td class="num">207M</td><td class="num">50 min</td><td class="num">1.100</td></tr>
+<tr><td>E2B, attention LoRA</td><td>Gemma 4 E2B, LoRA r=64 on attention</td><td class="num">21.4M</td><td class="num">72M</td><td class="num">119 min</td><td class="num">1.000</td></tr>
+</tbody></table></div>
+<p class="note">Everything ran on Modal. Data build on CPU containers, training and evaluation on single H100s, serving on an L4 or CPU. Gemma 4 E2B is compute-heavy for its "2.3B effective" label: all-module LoRA with gradient checkpointing trained at 8.8K tokens/s, attention-only LoRA at 13.6K tokens/s, so the E2B run used the latter on 35% of each task's cap.</p>
+
+<h2>The API</h2>
+<p>One request, mixed primitives, one forward pass. Deployed as a Modal web endpoint; the response shape is Jev's.</p>
+<pre>POST /decide
+{"state": {"conversation": [{"speaker": "customer", "text": "Charged $29.99 AGAIN after you said it was cancelled. Refund it and cancel it for real."}],
+           "customer": {"tenure_months": 19, "plan": "premium"}},
+ "questions": [
+  {"id": "primary_issue", "type": "choice", "instructions": "What is the customer's primary issue?",
+   "options": {"billing_dispute": "questions a fee or a double charge", "cancel_account": "wants to cancel", "refund_request": "wants money back for a purchase they agreed to"}},
+  {"id": "frustration", "type": "score", "instructions": "How frustrated is the customer?", "levels": ["calm", "mildly irritated", "clearly frustrated", "angry", "hostile"]},
+  {"id": "refund", "type": "noul", "instructions": "Does the customer ask for money back?"}]}
+
+→ {"answers": [
+  {"id": "primary_issue", "type": "choice", "choice": "billing_dispute", "probabilities": {"billing_dispute": 0.71, "cancel_account": 0.22, "refund_request": 0.07}, "confidence": 0.49},
+  {"id": "frustration", "type": "score", "score": 3.1, "level": "3", "probabilities": {"0": 0.01, "1": 0.04, "2": 0.18, "3": 0.52, "4": 0.25}, "confidence": 0.27},
+  {"id": "refund", "type": "noul", "noul": 0.93, "confidence": 0.86}],
+ "latency_ms": 18.4, "passes": 1}</pre>
+<p class="note">The response above is illustrative of the shape; live numbers come from the deployed model.</p>
+</div>

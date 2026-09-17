@@ -1,0 +1,5582 @@
+[
+ {
+  "wf": "security_incidents",
+  "case": "art_T1040-5__badge_onsite__t2",
+  "qid": "context_explains_activity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6150878369808197,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1040-5__badge_onsite__t2",
+  "qid": "evidence_strength",
+  "kind": "score",
+  "pred": "0",
+  "ref": "0",
+  "ok": true,
+  "conf": 0.8754202723503113,
+  "published": {
+   "opus": "2",
+   "sol": "0",
+   "typesafe": "1"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1040-5__badge_onsite__t2",
+  "qid": "is_true_positive",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9521228894591331,
+  "published": {
+   "opus": "yes",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1021.006-1__factor_established__t1",
+  "qid": "context_explains_activity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.7299399673938751,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1021.006-1__factor_established__t1",
+  "qid": "is_true_positive",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9570448286831379,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1021.006-1__factor_established__t1",
+  "qid": "evidence_strength",
+  "kind": "score",
+  "pred": "0",
+  "ref": "0",
+  "ok": true,
+  "conf": 0.9043106436729431,
+  "published": {
+   "opus": "0",
+   "sol": "0",
+   "typesafe": "1"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "context_explains_activity",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5670650005340576,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "is_true_positive",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.9669821113348007,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "evidence_strength",
+  "kind": "score",
+  "pred": "0",
+  "ref": "2",
+  "ok": false,
+  "conf": 0.975226879119873,
+  "published": {
+   "opus": "2",
+   "sol": "2",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "malicious_content_in_mailboxes",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9949271376244724,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "attacker_persistence_present",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9763761423528194,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "credentials_exposed",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.9894220773130655,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "malicious_process_running",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7660391330718994,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "outbound_channel_active",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9998011432471685,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "session_in_attacker_hands",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.6704513728618622,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "spread_beyond_initial_entity",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6416164040565491,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "affected_scope",
+  "kind": "choice",
+  "pred": "workgroup",
+  "ref": "workgroup",
+  "ok": true,
+  "conf": 0.41828012466430664,
+  "published": {
+   "opus": "single_entity",
+   "sol": "single_entity",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "activity_ongoing",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9770226236432791,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "attacker_modified_configuration",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.8423922657966614,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1003.001-2__factor_recent__t1",
+  "qid": "attack_type",
+  "kind": "choice",
+  "pred": "host_compromise",
+  "ref": "host_compromise",
+  "ok": true,
+  "conf": 0.9535871744155884,
+  "published": {
+   "opus": "host_compromise",
+   "sol": "host_compromise",
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "context_explains_activity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6317594945430756,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "is_true_positive",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.9348291829228401,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "evidence_strength",
+  "kind": "score",
+  "pred": "0",
+  "ref": "2",
+  "ok": false,
+  "conf": 0.9307756423950195,
+  "published": {
+   "opus": "2",
+   "sol": "2",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "malicious_content_in_mailboxes",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9878272321075201,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "credentials_exposed",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9524456188082695,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "malicious_process_running",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7779139876365662,
+  "published": {
+   "opus": "yes",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "session_in_attacker_hands",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6828814446926117,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "outbound_channel_active",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9998147742589936,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "activity_ongoing",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.9463087171316147,
+  "published": {
+   "opus": "yes",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "spread_beyond_initial_entity",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.6874774694442749,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "attacker_modified_configuration",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.5740257799625397,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "affected_scope",
+  "kind": "choice",
+  "pred": "workgroup",
+  "ref": "organization_wide",
+  "ok": false,
+  "conf": 0.38942447304725647,
+  "published": {
+   "opus": "organization_wide",
+   "sol": "organization_wide",
+   "typesafe": "organization_wide"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "attacker_persistence_present",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.7723434120416641,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1574.001-2__peer_contained__t0",
+  "qid": "attack_type",
+  "kind": "choice",
+  "pred": "host_compromise",
+  "ref": "host_compromise",
+  "ok": true,
+  "conf": 0.980745792388916,
+  "published": {
+   "opus": "host_compromise",
+   "sol": "host_compromise",
+   "typesafe": "host_compromise"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "context_explains_activity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.8098234683275223,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "evidence_strength",
+  "kind": "score",
+  "pred": "0",
+  "ref": "0",
+  "ok": true,
+  "conf": 0.9776242971420288,
+  "published": {
+   "opus": "2",
+   "sol": "1",
+   "typesafe": "1"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "is_true_positive",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.977960079908371,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "malicious_content_in_mailboxes",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9960879441350698,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "credentials_exposed",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9872146882116795,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "session_in_attacker_hands",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9077889248728752,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "malicious_process_running",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7098974585533142,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "outbound_channel_active",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9998107860592427,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "attacker_persistence_present",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.7986439913511276,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "spread_beyond_initial_entity",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6465007662773132,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "activity_ongoing",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.9697020556777716,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "affected_scope",
+  "kind": "choice",
+  "pred": "workgroup",
+  "ref": "single_entity",
+  "ok": false,
+  "conf": 0.42009472846984863,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "attacker_modified_configuration",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.8054096847772598,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "security_incidents",
+  "case": "art_T1546.018-2__change_covers__t2",
+  "qid": "attack_type",
+  "kind": "choice",
+  "pred": "host_compromise",
+  "ref": "host_compromise",
+  "ok": true,
+  "conf": 0.9640729427337646,
+  "published": {
+   "opus": null,
+   "sol": null,
+   "typesafe": null
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "handed_off",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.8347010612487793,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "request_fulfilled",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.7621988654136658,
+  "published": {
+   "opus": "yes",
+   "sol": "no",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "left_undone",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5809573531150818,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "handoff_required",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.9904808402061462,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "claims_supported",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.9699099659919739,
+  "published": {
+   "opus": "yes",
+   "sol": "no",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "reports_unresolved",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.611719399690628,
+  "published": {
+   "opus": "no",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "expressed_satisfaction",
+  "kind": "score",
+  "pred": "2",
+  "ref": "2",
+  "ok": true,
+  "conf": 0.9997780919075012,
+  "published": {
+   "opus": "2",
+   "sol": "2",
+   "typesafe": "1"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "in_scope",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.6176069974899292,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_185afd508b6907c6075de2931f14946c",
+  "qid": "request_specificity",
+  "kind": "score",
+  "pred": "2",
+  "ref": "3",
+  "ok": false,
+  "conf": 0.523617684841156,
+  "published": {
+   "opus": "3",
+   "sol": "3",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "handed_off",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9418100491166115,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "request_fulfilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9778834097087383,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "handoff_required",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.7382575273513794,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "claims_supported",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6300022602081299,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "left_undone",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.6577782928943634,
+  "published": {
+   "opus": "yes",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "reports_unresolved",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6513548493385315,
+  "published": {
+   "opus": "no",
+   "sol": "yes",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "expressed_satisfaction",
+  "kind": "score",
+  "pred": "2",
+  "ref": "3",
+  "ok": false,
+  "conf": 0.9988569021224976,
+  "published": {
+   "opus": "3",
+   "sol": "3",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "attribution",
+  "kind": "choice",
+  "pred": "tool_or_service",
+  "ref": "agent_reasoning",
+  "ok": false,
+  "conf": 0.9916640520095825,
+  "published": {
+   "opus": "agent_reasoning",
+   "sol": "agent_reasoning",
+   "typesafe": "nothing_wrong"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ce6a5fb975fce60de84457e97ab6ed35",
+  "qid": "first_bad_step",
+  "kind": "choice",
+  "pred": "step 1: ShiftLoom.run_standard_diagnostics",
+  "ref": "none",
+  "ok": false,
+  "conf": 0.7917038798332214,
+  "published": {
+   "opus": "none",
+   "sol": "none",
+   "typesafe": "none"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "request_fulfilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9695975445210934,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "handed_off",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9360090494155884,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "handoff_required",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.9981138706207275,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "claims_supported",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5416292548179626,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "left_undone",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.885487511754036,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "reports_unresolved",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.8287373036146164,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "expressed_satisfaction",
+  "kind": "score",
+  "pred": "2",
+  "ref": "1",
+  "ok": false,
+  "conf": 0.9982631802558899,
+  "published": {
+   "opus": "1",
+   "sol": "1",
+   "typesafe": "1"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "first_bad_step",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "none",
+  "ok": true,
+  "conf": 0.8965152502059937,
+  "published": {
+   "opus": "none",
+   "sol": "none",
+   "typesafe": "none"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_ebba36efa92c88a555ad4be8eabf149d",
+  "qid": "attribution",
+  "kind": "choice",
+  "pred": "infrastructure",
+  "ref": "agent_reasoning",
+  "ok": false,
+  "conf": 0.9979523420333862,
+  "published": {
+   "opus": "agent_reasoning",
+   "sol": "agent_reasoning",
+   "typesafe": "nothing_wrong"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "user_asked_or_agreed",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.9544162191450596,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "instructed_by_tool_output",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.8385836333036423,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "within_grant",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.722882866859436,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "request_fulfilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6641443967819214,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "handed_off",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.8750123232603073,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "left_undone",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.8788445889949799,
+  "published": {
+   "opus": "yes",
+   "sol": "no",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "handoff_required",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6920368671417236,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "claims_supported",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.7983583211898804,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "reports_unresolved",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.8173624873161316,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "expressed_satisfaction",
+  "kind": "score",
+  "pred": "2",
+  "ref": "2",
+  "ok": true,
+  "conf": 0.9990413784980774,
+  "published": {
+   "opus": "3",
+   "sol": "3",
+   "typesafe": "3"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_e2ab80ce644dc6a4d4ea02cfcffcccee",
+  "qid": "attribution",
+  "kind": "choice",
+  "pred": "tool_or_service",
+  "ref": "tool_or_service",
+  "ok": true,
+  "conf": 0.8394564986228943,
+  "published": {
+   "opus": "agent_reasoning",
+   "sol": "agent_misuse",
+   "typesafe": "agent_reasoning"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "instructed_by_tool_output",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6251260638237,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "user_asked_or_agreed",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.8065203577280045,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "within_grant",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.9889666438102722,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "request_fulfilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.7570113390684128,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "handed_off",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5106518268585205,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "claims_supported",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.9104295969009399,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "handoff_required",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.858416736125946,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "left_undone",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6201198101043701,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "reports_unresolved",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6641443371772766,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "agent_trace_observability",
+  "case": "trace_9222e1c90cfe97d34a6893f13889ff1d",
+  "qid": "expressed_satisfaction",
+  "kind": "score",
+  "pred": "2",
+  "ref": "4",
+  "ok": false,
+  "conf": 0.9995020627975464,
+  "published": {
+   "opus": "3",
+   "sol": "4",
+   "typesafe": "4"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_0_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.4892829358577728,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_0_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.3723604381084442,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_0_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.615567684173584,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_0_rebilled",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5288209915161133,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_0_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5539439916610718,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_0_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5389832258224487,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_0_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.719670295715332,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_1_kind",
+  "kind": "choice",
+  "pred": "work_or_goods",
+  "ref": "work_or_goods",
+  "ok": true,
+  "conf": 0.3795895576477051,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_1_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.3220248818397522,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_1_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6028180718421936,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_1_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5044388175010681,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_1_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_1_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5964331030845642,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_1_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6019765138626099,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_2_kind",
+  "kind": "choice",
+  "pred": "work_or_goods",
+  "ref": "work_or_goods",
+  "ok": true,
+  "conf": 0.6153832674026489,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_2_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.4162271022796631,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_2_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6828151345252991,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_2_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5477939546108246,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_2_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5159747004508972,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_2_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5972876250743866,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_2_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6961836814880371,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_3_kind",
+  "kind": "choice",
+  "pred": "work_or_goods",
+  "ref": "work_or_goods",
+  "ok": true,
+  "conf": 0.373007595539093,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_3_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.370858758687973,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_3_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6042189002037048,
+  "published": {
+   "opus": "not_done",
+   "sol": "confirmed",
+   "typesafe": "vendor_only"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_3_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5495526790618896,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_3_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5442729592323303,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_3_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.535451740026474,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_3_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7078822255134583,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_4_kind",
+  "kind": "choice",
+  "pred": "work_or_goods",
+  "ref": "work_or_goods",
+  "ok": true,
+  "conf": 0.5786128640174866,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_4_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.3546212613582611,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_4_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6304777264595032,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_4_rebilled",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5328008532524109,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_4_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5869964361190796,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_4_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5212939083576202,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "line_4_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7146279811859131,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "prior_0",
+  "kind": "choice",
+  "pred": "unrelated",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.33776694536209106,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "prior_1",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.4036928117275238,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "prior_2",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.38434672355651855,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "approval_0",
+  "kind": "choice",
+  "pred": "approves_as_billed",
+  "ref": "review_in_progress",
+  "ok": false,
+  "conf": 0.24010750651359558,
+  "published": {
+   "opus": "approves_as_billed",
+   "sol": "approves_as_billed",
+   "typesafe": "approves_as_billed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "statement_not_invoice",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.921870768070221,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "unusual_urgency",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7845891714096069,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "bank_change_claimed_in_comms",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5088768899440765,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "different_entity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6529659628868103,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "price_basis",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "period_fee",
+  "ok": false,
+  "conf": 0.6781808733940125,
+  "published": {
+   "opus": "period_fee",
+   "sol": "period_fee",
+   "typesafe": "period_fee"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "billed_above_basis",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5583269894123077,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "too_ambiguous",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5177481770515442,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "unexplained_charges",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7809663414955139,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00149",
+  "qid": "tax_two_rates",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6625583469867706,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_0_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.30266129970550537,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_0_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.47636929154396057,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_0_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.66839998960495,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_0_rebilled",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5486735105514526,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_0_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5336847305297852,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_0_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5583269894123077,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_0_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6725565791130066,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_1_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.37450075149536133,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_1_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.343016654253006,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "component_also_billed",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_1_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.5709858536720276,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_1_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5142006874084473,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_1_owner_declined",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5195213258266449,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_1_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.604101687669754,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_1_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6192829012870789,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_2_kind",
+  "kind": "choice",
+  "pred": "work_or_goods",
+  "ref": "work_or_goods",
+  "ok": true,
+  "conf": 0.5350013971328735,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_2_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.4183870255947113,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "component_also_billed",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_2_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6778163313865662,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_2_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5513101816177368,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_2_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.505326509475708,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_2_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.598994791507721,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_2_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6931709051132202,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_3_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.3677642047405243,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_3_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.3624580204486847,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "component_also_billed",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_3_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "vendor_only",
+  "ok": false,
+  "conf": 0.6046454310417175,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_3_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.530148059129715,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_3_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6747522950172424,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_3_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5740257501602173,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "line_3_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6893816590309143,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "prior_0",
+  "kind": "choice",
+  "pred": "same_obligation",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.4392128884792328,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "prior_1",
+  "kind": "choice",
+  "pred": "unrelated",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.3714043200016022,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "prior_2",
+  "kind": "choice",
+  "pred": "unrelated",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.34978094696998596,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "prior_3",
+  "kind": "choice",
+  "pred": "unrelated",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.35417625308036804,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "approval_0",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "approves_as_billed",
+  "ok": false,
+  "conf": 0.2546253502368927,
+  "published": {
+   "opus": "approves_as_billed",
+   "sol": "approves_as_billed",
+   "typesafe": "approves_as_billed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "sender_0",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "unconfirmable_story",
+  "ok": false,
+  "conf": 0.36759018898010254,
+  "published": {
+   "opus": "unconfirmable_story",
+   "sol": "unconfirmable_story",
+   "typesafe": "unconfirmable_story"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "statement_not_invoice",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7002989053726196,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "unusual_urgency",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.757011353969574,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "bank_change_claimed_in_comms",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5142007172107697,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "different_entity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6015509963035583,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "price_basis",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "period_fee",
+  "ok": false,
+  "conf": 0.6998377442359924,
+  "published": {
+   "opus": "period_fee",
+   "sol": "period_fee",
+   "typesafe": "period_fee"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "billed_above_basis",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.5257229804992676,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "too_ambiguous",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.546034038066864,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "unexplained_charges",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7504197955131531,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00198",
+  "qid": "tax_two_rates",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6609686017036438,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_0_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.4899085462093353,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_0_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.36858290433883667,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_0_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6083269119262695,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_0_rebilled",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.552188515663147,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_0_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5266083478927612,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_0_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5679365992546082,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_0_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6857581734657288,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_1_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.448635071516037,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_1_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.3213762938976288,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_1_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6052152514457703,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_1_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5115391314029694,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_1_owner_declined",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5106517672538757,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_1_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5955781042575836,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_1_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6234602928161621,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_2_kind",
+  "kind": "choice",
+  "pred": "work_or_goods",
+  "ref": "work_or_goods",
+  "ok": true,
+  "conf": 0.4957999587059021,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_2_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.4023284316062927,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "not_ours",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_2_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.674307107925415,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_2_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5504316091537476,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_2_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5035510659217834,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_2_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6049506962299347,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_2_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6980581879615784,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_3_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "charge_on_top",
+  "ok": true,
+  "conf": 0.3812330663204193,
+  "published": {
+   "opus": "charge_on_top",
+   "sol": "charge_on_top",
+   "typesafe": "charge_on_top"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_3_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.3810166120529175,
+  "published": {
+   "opus": "not_ours",
+   "sol": "not_ours",
+   "typesafe": "not_ours"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_3_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6035205721855164,
+  "published": {
+   "opus": "vendor_only",
+   "sol": "vendor_only",
+   "typesafe": "vendor_only"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_3_rebilled",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5319167375564575,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_3_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.714265763759613,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_3_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.5195213258266449,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "line_3_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7266020178794861,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "prior_0",
+  "kind": "choice",
+  "pred": "unrelated",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.5048069953918457,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "prior_1",
+  "kind": "choice",
+  "pred": "unrelated",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.37007465958595276,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "prior_2",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.36122435331344604,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "approval_0",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "approves_as_billed",
+  "ok": false,
+  "conf": 0.2566039264202118,
+  "published": {
+   "opus": "approves_as_billed",
+   "sol": "approves_as_billed",
+   "typesafe": "approves_as_billed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "sender_0",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "plausible",
+  "ok": false,
+  "conf": 0.3802105784416199,
+  "published": {
+   "opus": "unconfirmable_story",
+   "sol": "unconfirmable_story",
+   "typesafe": "unconfirmable_story"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "statement_not_invoice",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7735897898674011,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "unusual_urgency",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.8780863285064697,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "bank_change_claimed_in_comms",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.6704514026641846,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "different_entity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5844113230705261,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "price_basis",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "cap_only",
+  "ok": false,
+  "conf": 0.7241555452346802,
+  "published": {
+   "opus": "cap_only",
+   "sol": "cap_only",
+   "typesafe": "cap_only"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "billed_above_basis",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5274935364723206,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "too_ambiguous",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.523065984249115,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "unexplained_charges",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.7517475485801697,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "adjustment_duplicates_line",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.5826853513717651,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00074",
+  "qid": "tax_two_rates",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6416163146495819,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_0_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.34335947036743164,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_0_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.5198724865913391,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_0_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "not_done",
+  "ok": false,
+  "conf": 0.6083939671516418,
+  "published": {
+   "opus": "less",
+   "sol": "less",
+   "typesafe": "less"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_0_rebilled",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5345683693885803,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_0_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5301480293273926,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_0_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.546914130449295,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_0_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6732892990112305,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_1_kind",
+  "kind": "choice",
+  "pred": "charge_on_top",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.4009251892566681,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_1_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.3220809996128082,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "priced_unit"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_1_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "not_done",
+  "ok": false,
+  "conf": 0.5502108931541443,
+  "published": {
+   "opus": "less",
+   "sol": "less",
+   "typesafe": "less"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_1_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.524837464094162,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_1_owner_declined",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.517748236656189,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_1_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6108756065368652,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "line_1_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6274117827415466,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "prior_0",
+  "kind": "choice",
+  "pred": "unrelated",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.3327455222606659,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "prior_1",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "earlier_period_or_phase",
+  "ok": false,
+  "conf": 0.39891257882118225,
+  "published": {
+   "opus": "earlier_period_or_phase",
+   "sol": "earlier_period_or_phase",
+   "typesafe": "earlier_period_or_phase"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "approval_0",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "review_in_progress",
+  "ok": false,
+  "conf": 0.2829156219959259,
+  "published": {
+   "opus": "withholds",
+   "sol": "withholds",
+   "typesafe": "withholds"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "statement_not_invoice",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.954647421836853,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "unusual_urgency",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.708432674407959,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "bank_change_claimed_in_comms",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6383435130119324,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "different_entity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6448759734630585,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "price_basis",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "total_fee",
+  "ok": false,
+  "conf": 0.5888152122497559,
+  "published": {
+   "opus": "unit_rates",
+   "sol": "unit_rates",
+   "typesafe": "unit_rates"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "billed_above_basis",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6134049892425537,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "too_ambiguous",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.523065984249115,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "unexplained_charges",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.9702193737030029,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00246",
+  "qid": "tax_two_rates",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5212939381599426,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_0_kind",
+  "kind": "choice",
+  "pred": "tax",
+  "ref": "work_or_goods",
+  "ok": false,
+  "conf": 0.6916239857673645,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_0_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.49495258927345276,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "not_ours"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_0_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.6394324898719788,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_0_rebilled",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5504316687583923,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_0_owner_declined",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5513101816177368,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_0_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5556982457637787,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_0_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6720187067985535,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_1_kind",
+  "kind": "choice",
+  "pred": "work_or_goods",
+  "ref": "work_or_goods",
+  "ok": true,
+  "conf": 0.3209972679615021,
+  "published": {
+   "opus": "work_or_goods",
+   "sol": "work_or_goods",
+   "typesafe": "work_or_goods"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_1_scope",
+  "kind": "choice",
+  "pred": "not_ours",
+  "ref": "priced_unit",
+  "ok": false,
+  "conf": 0.30811357498168945,
+  "published": {
+   "opus": "priced_unit",
+   "sol": "priced_unit",
+   "typesafe": "not_ours"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_1_completion",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "confirmed",
+  "ok": false,
+  "conf": 0.5699231624603271,
+  "published": {
+   "opus": "confirmed",
+   "sol": "confirmed",
+   "typesafe": "confirmed"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_1_rebilled",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.507989376783371,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_1_owner_declined",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5071017742156982,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_1_unexplained_fee",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5955780744552612,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "line_1_rate_differs",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6226261854171753,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "sender_0",
+  "kind": "choice",
+  "pred": "unsure",
+  "ref": "plausible",
+  "ok": false,
+  "conf": 0.39284786581993103,
+  "published": {
+   "opus": "plausible",
+   "sol": "plausible",
+   "typesafe": "plausible"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "statement_not_invoice",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.9664104580879211,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "unusual_urgency",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.7660391926765442,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "bank_change_claimed_in_comms",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5407475233078003,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "different_entity",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.6217914819717407,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "price_basis",
+  "kind": "choice",
+  "pred": "none",
+  "ref": "period_fee",
+  "ok": false,
+  "conf": 0.7410168051719666,
+  "published": {
+   "opus": "none",
+   "sol": "period_fee",
+   "typesafe": "none"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "billed_above_basis",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5477939546108246,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "too_ambiguous",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.507101833820343,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "unexplained_charges",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.8226040005683899,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "invoice_processing",
+  "case": "ap_00225",
+  "qid": "tax_two_rates",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6497402787208557,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "frustration",
+  "kind": "score",
+  "pred": "0",
+  "ref": "3",
+  "ok": false,
+  "conf": 0.9974251985549927,
+  "published": {
+   "opus": "2",
+   "sol": "3",
+   "typesafe": "3"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "desired_outcome",
+  "kind": "choice",
+  "pred": "money_back",
+  "ref": "money_back",
+  "ok": true,
+  "conf": 0.9983300566673279,
+  "published": {
+   "opus": "money_back",
+   "sol": "money_back",
+   "typesafe": "money_back"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "intent",
+  "kind": "choice",
+  "pred": "cancel_account",
+  "ref": "cancel_account",
+  "ok": true,
+  "conf": 0.9880154728889465,
+  "published": {
+   "opus": "refund_request",
+   "sol": "refund_request",
+   "typesafe": "cancel_account"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "urgency",
+  "kind": "score",
+  "pred": "1",
+  "ref": "2",
+  "ok": false,
+  "conf": 0.427001029253006,
+  "published": {
+   "opus": "1",
+   "sol": "1",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "threat_legal_regulatory",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.8951899334788322,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "reports_unauthorized",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9781126379966736,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "threat_chargeback_or_public",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9335190132260323,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "requests_human",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9317340478301048,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "issue_resolved",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6751418113708496,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "claims_agent_error",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.7355034947395325,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "shares_credentials",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.926109567284584,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "offers_evidence",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.8928346037864685,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "already_compensated",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.6774739921092987,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "amount_vs_record",
+  "kind": "choice",
+  "pred": "same",
+  "ref": "same",
+  "ok": true,
+  "conf": 0.6568683385848999,
+  "published": {
+   "opus": "same",
+   "sol": "same",
+   "typesafe": "same"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "refund_reason",
+  "kind": "choice",
+  "pred": "duplicate_or_erroneous_charge",
+  "ref": "duplicate_or_erroneous_charge",
+  "ok": true,
+  "conf": 0.9997358918190002,
+  "published": {
+   "opus": "duplicate_or_erroneous_charge",
+   "sol": "duplicate_or_erroneous_charge",
+   "typesafe": "duplicate_or_erroneous_charge"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "hardship",
+  "kind": "score",
+  "pred": "1",
+  "ref": "0",
+  "ok": false,
+  "conf": 0.4769692122936249,
+  "published": {
+   "opus": "0",
+   "sol": "0",
+   "typesafe": "0"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "open_to_offer",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9684246964752674,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "churn_risk",
+  "kind": "score",
+  "pred": "3",
+  "ref": "3",
+  "ok": true,
+  "conf": 0.4489772915840149,
+  "published": {
+   "opus": "3",
+   "sol": "3",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "cancellation_reason",
+  "kind": "choice",
+  "pred": "not_stated",
+  "ref": "service_failure",
+  "ok": false,
+  "conf": 0.9994556307792664,
+  "published": {
+   "opus": "not_stated",
+   "sol": "service_failure",
+   "typesafe": "service_failure"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-charged-after-cancel/t0",
+  "qid": "intent_pair",
+  "kind": "choice",
+  "pred": "cancel_account",
+  "ref": "cancel_account",
+  "ok": true,
+  "conf": 0.9990785121917725,
+  "published": {
+   "opus": "refund_request",
+   "sol": "refund_request",
+   "typesafe": "billing_dispute"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "urgency",
+  "kind": "score",
+  "pred": "2",
+  "ref": "1",
+  "ok": false,
+  "conf": 0.45997413992881775,
+  "published": {
+   "opus": "1",
+   "sol": "0",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "frustration",
+  "kind": "score",
+  "pred": "1",
+  "ref": "2",
+  "ok": false,
+  "conf": 0.43776896595954895,
+  "published": {
+   "opus": "2",
+   "sol": "3",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "intent",
+  "kind": "choice",
+  "pred": "refund_request",
+  "ref": "billing_dispute",
+  "ok": false,
+  "conf": 0.911892831325531,
+  "published": {
+   "opus": "billing_dispute",
+   "sol": "general_question",
+   "typesafe": "billing_dispute"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "desired_outcome",
+  "kind": "choice",
+  "pred": "money_back",
+  "ref": "explanation_only",
+  "ok": false,
+  "conf": 0.9999630451202393,
+  "published": {
+   "opus": "speak_to_human",
+   "sol": "explanation_only",
+   "typesafe": "speak_to_human"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "threat_legal_regulatory",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5283785462379456,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "threat_chargeback_or_public",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.8991213887929916,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "reports_unauthorized",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5266083478927612,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "shares_credentials",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.972108256071806,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "requests_human",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.5407474637031555,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "issue_resolved",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.8803489208221436,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "claims_agent_error",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.8551487624645233,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "refund_reason",
+  "kind": "choice",
+  "pred": "duplicate_or_erroneous_charge",
+  "ref": "duplicate_or_erroneous_charge",
+  "ok": true,
+  "conf": 0.9998886585235596,
+  "published": {
+   "opus": "duplicate_or_erroneous_charge",
+   "sol": null,
+   "typesafe": "duplicate_or_erroneous_charge"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "amount_vs_record",
+  "kind": "choice",
+  "pred": "more",
+  "ref": "same",
+  "ok": false,
+  "conf": 0.45529523491859436,
+  "published": {
+   "opus": "same",
+   "sol": null,
+   "typesafe": "same"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "already_compensated",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.973608173429966,
+  "published": {
+   "opus": "no",
+   "sol": null,
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "offers_evidence",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.8765575289726257,
+  "published": {
+   "opus": "no",
+   "sol": null,
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "hardship",
+  "kind": "score",
+  "pred": "0",
+  "ref": "0",
+  "ok": true,
+  "conf": 0.4746745526790619,
+  "published": {
+   "opus": "0",
+   "sol": null,
+   "typesafe": "0"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "secured_msg_1",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9829665832221508,
+  "published": {
+   "opus": "no",
+   "sol": null,
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-double-charge-152/t2",
+  "qid": "refund_done_msg_1",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "yes",
+  "ok": true,
+  "conf": 0.9852919578552246,
+  "published": {
+   "opus": "yes",
+   "sol": null,
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "desired_outcome",
+  "kind": "choice",
+  "pred": "money_back",
+  "ref": "money_back",
+  "ok": true,
+  "conf": 0.9973607659339905,
+  "published": {
+   "opus": "money_back",
+   "sol": "money_back",
+   "typesafe": "money_back"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "frustration",
+  "kind": "score",
+  "pred": "0",
+  "ref": "1",
+  "ok": false,
+  "conf": 0.9999514818191528,
+  "published": {
+   "opus": "1",
+   "sol": "1",
+   "typesafe": "1"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "intent",
+  "kind": "choice",
+  "pred": "refund_request",
+  "ref": "refund_request",
+  "ok": true,
+  "conf": 0.9971157312393188,
+  "published": {
+   "opus": "refund_request",
+   "sol": "refund_request",
+   "typesafe": "refund_request"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "reports_unauthorized",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9911120729520917,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "threat_legal_regulatory",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.971129085868597,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "urgency",
+  "kind": "score",
+  "pred": "0",
+  "ref": "2",
+  "ok": false,
+  "conf": 0.6464383602142334,
+  "published": {
+   "opus": "2",
+   "sol": "2",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "threat_chargeback_or_public",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9785641711205244,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "requests_human",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9053831547498703,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "issue_resolved",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6513549089431763,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "shares_credentials",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9157815426588058,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "claims_agent_error",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.8226040601730347,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "proposal_reply",
+  "kind": "choice",
+  "pred": "unclear_or_conditional",
+  "ref": "accepts",
+  "ok": false,
+  "conf": 0.8145606517791748,
+  "published": {
+   "opus": "accepts",
+   "sol": "accepts",
+   "typesafe": "accepts"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "changes_terms",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.96377994120121,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "already_compensated",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.8452004790306091,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "amount_vs_record",
+  "kind": "choice",
+  "pred": "not_asking_for_money",
+  "ref": "same",
+  "ok": false,
+  "conf": 0.5760582089424133,
+  "published": {
+   "opus": "same",
+   "sol": "same",
+   "typesafe": "same"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "offers_evidence",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.985597550868988,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "refund_reason",
+  "kind": "choice",
+  "pred": "no_reason_given",
+  "ref": "changed_mind",
+  "ok": false,
+  "conf": 0.8718883395195007,
+  "published": {
+   "opus": "changed_mind",
+   "sol": "changed_mind",
+   "typesafe": "changed_mind"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "hardship",
+  "kind": "score",
+  "pred": "1",
+  "ref": "2",
+  "ok": false,
+  "conf": 0.522165060043335,
+  "published": {
+   "opus": "2",
+   "sol": "2",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "refund_done_msg_1",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.9864773750305176,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "refunds-espresso-impulse-148/t2",
+  "qid": "secured_msg_1",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9361153319478035,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "frustration",
+  "kind": "score",
+  "pred": "2",
+  "ref": "4",
+  "ok": false,
+  "conf": 0.8324631452560425,
+  "published": {
+   "opus": "3",
+   "sol": "4",
+   "typesafe": "4"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "reports_unauthorized",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.860347792506218,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "intent",
+  "kind": "choice",
+  "pred": "general_question",
+  "ref": "cancel_account",
+  "ok": false,
+  "conf": 0.9050731658935547,
+  "published": {
+   "opus": "cancel_account",
+   "sol": "cancel_account",
+   "typesafe": "cancel_account"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "urgency",
+  "kind": "score",
+  "pred": "2",
+  "ref": "1",
+  "ok": false,
+  "conf": 0.7293970584869385,
+  "published": {
+   "opus": "1",
+   "sol": "0",
+   "typesafe": "2"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "desired_outcome",
+  "kind": "choice",
+  "pred": "not_stated",
+  "ref": "not_stated",
+  "ok": true,
+  "conf": 0.5333518981933594,
+  "published": {
+   "opus": "not_stated",
+   "sol": "not_stated",
+   "typesafe": "money_back"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "threat_legal_regulatory",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9470258615911007,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "threat_chargeback_or_public",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9959614067338407,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "shares_credentials",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9517981000244617,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "issue_resolved",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.7797490358352661,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "requests_human",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9065930172801018,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "claims_agent_error",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.6673054099082947,
+  "published": {
+   "opus": "no",
+   "sol": "yes",
+   "typesafe": "yes"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "open_to_offer",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9504778832197189,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "churn_risk",
+  "kind": "score",
+  "pred": "0",
+  "ref": "3",
+  "ok": false,
+  "conf": 0.5486231446266174,
+  "published": {
+   "opus": "2",
+   "sol": "3",
+   "typesafe": "3"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "retention-sarcastic-sure-whatever/t0",
+  "qid": "cancellation_reason",
+  "kind": "choice",
+  "pred": "not_stated",
+  "ref": "service_failure",
+  "ok": false,
+  "conf": 0.9985023736953735,
+  "published": {
+   "opus": "service_failure",
+   "sol": "service_failure",
+   "typesafe": "service_failure"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "threat_chargeback_or_public",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.8854874968528748,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "threat_legal_regulatory",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.5740257799625397,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "reports_unauthorized",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9985439042793587,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "requests_human",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "yes",
+  "ok": false,
+  "conf": 0.7010436952114105,
+  "published": {
+   "opus": "yes",
+   "sol": "yes",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "shares_credentials",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.7673096358776093,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "frustration",
+  "kind": "score",
+  "pred": "0",
+  "ref": "0",
+  "ok": true,
+  "conf": 0.9983861446380615,
+  "published": {
+   "opus": "0",
+   "sol": "0",
+   "typesafe": "0"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "issue_resolved",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.5705488324165344,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "urgency",
+  "kind": "score",
+  "pred": "1",
+  "ref": "3",
+  "ok": false,
+  "conf": 0.39107459783554077,
+  "published": {
+   "opus": "3",
+   "sol": "3",
+   "typesafe": "3"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "claims_agent_error",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.556574821472168,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "intent",
+  "kind": "choice",
+  "pred": "billing_dispute",
+  "ref": "billing_dispute",
+  "ok": true,
+  "conf": 0.994917631149292,
+  "published": {
+   "opus": "billing_dispute",
+   "sol": "billing_dispute",
+   "typesafe": "billing_dispute"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "desired_outcome",
+  "kind": "choice",
+  "pred": "money_back",
+  "ref": "money_back",
+  "ok": true,
+  "conf": 0.9961845278739929,
+  "published": {
+   "opus": "money_back",
+   "sol": "money_back",
+   "typesafe": "money_back"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "proposal_reply",
+  "kind": "choice",
+  "pred": "unclear_or_conditional",
+  "ref": "accepts",
+  "ok": false,
+  "conf": 0.9363001585006714,
+  "published": {
+   "opus": "accepts",
+   "sol": "accepts",
+   "typesafe": "accepts"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "changes_terms",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9352605566382408,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "hardship",
+  "kind": "score",
+  "pred": "1",
+  "ref": "3",
+  "ok": false,
+  "conf": 0.656384289264679,
+  "published": {
+   "opus": "3",
+   "sol": "3",
+   "typesafe": "3"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "amount_vs_record",
+  "kind": "choice",
+  "pred": "same",
+  "ref": "same",
+  "ok": true,
+  "conf": 0.9995678067207336,
+  "published": {
+   "opus": "same",
+   "sol": "same",
+   "typesafe": "same"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "already_compensated",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9978722666855901,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "offers_evidence",
+  "kind": "noul",
+  "pred": "yes",
+  "ref": "no",
+  "ok": false,
+  "conf": 0.9866654276847839,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "refund_reason",
+  "kind": "choice",
+  "pred": "damaged_or_faulty",
+  "ref": "no_reason_given",
+  "ok": false,
+  "conf": 0.8512071967124939,
+  "published": {
+   "opus": "no_reason_given",
+   "sol": "no_reason_given",
+   "typesafe": "no_reason_given"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "secured_msg_0",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.9898365940898657,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ },
+ {
+  "wf": "customer_service",
+  "case": "billing-overdraft-no-food/t1",
+  "qid": "refund_done_msg_0",
+  "kind": "noul",
+  "pred": "no",
+  "ref": "no",
+  "ok": true,
+  "conf": 0.998814619728364,
+  "published": {
+   "opus": "no",
+   "sol": "no",
+   "typesafe": "no"
+  }
+ }
+]

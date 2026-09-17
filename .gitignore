@@ -1,0 +1,11 @@
+__pycache__/
+*.log
+*.out
+diag.out
+smoke.py
+gpucheck.py
+importcheck.py
+bench_speed.py
+bench_speed2.py
+diag.py
+probe.py
